@@ -17,9 +17,11 @@
         "laravel-mix": "^2.0",
         "lodash": "^4.17.4",
         "popper.js": "^1.12.9",
-        "vue": "^2.5.7"
+        "ajv": "^6.0.1",
+        "vue": "^2.6.10"
     },
     "dependencies": {
-        "vue-router": "^3.0.1"
+        "vue-router": "^3.0.1",
+        "node-sass": "^4.12.0"
     }
 }
