@@ -18,7 +18,6 @@
                 :value="value"  >
 
                 <span v-if="buttonShow" @click="(e)=>{$emit('click')}" class="message-submit">Gönder</span>
-                {{value}}
   </div>
 </template>
 
@@ -122,5 +121,6 @@ export default {
         font-family: 'Poppins','Sans Serif';
         color: rgb(15, 228, 139);
         font-weight: 600;
+        cursor: pointer;
     }
 </style>
